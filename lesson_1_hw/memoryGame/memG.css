@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    height: 100vh; /* תופס בדיוק את גובה המסך */
+    overflow: hidden; /* מונע גלילה */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px; /* רוחב צר יותר כדי להיכנס במסך */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* סרגל עליון קומפקטי יותר */
+.info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h1 {
+    color: #ff6b6b;
+    font-size: 1.5rem; /* כותרת קטנה יותר */
+    margin: 0 10px;
+    white-space: nowrap;
+}
+
+.stat-box {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+    display: flex;
+    flex-direction: column; /* מספר מתחת לטקסט לחיסכון במקום לרוחב */
+    align-items: center;
+    line-height: 1.2;
+}
+
+#timer { color: #e67e22; }
+#score { color: #2ecc71; }
+
+/* לוח המשחק */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* רווחים קטנים יותר */
+    margin-bottom: 15px;
+    perspective: 1000px;
+}
+
+/* עיצוב הקלף */
+.card {
+    background-color: transparent;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card.hidden-card {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    font-size: 2.5rem; /* אייקון קטן יותר */
+    border: 3px solid #fff;
+}
+
+.front {
+    background: #6c5ce7;
+    background-image: repeating-linear-gradient(45deg, #6c5ce7, #6c5ce7 8px, #8071eb 8px, #8071eb 16px);
+}
+
+.back {
+    background: #fff;
+    transform: rotateY(180deg);
+    border-color: #ffeaa7;
+}
+
+/* כפתור */
+button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background-color: #ee5253;
+    transform: scale(1.05);
+}
+
+/* מודל */
+.modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.hidden { display: none; }
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 300px;
+}

@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\bin\Debug\net6.0\hamanTaluyAlEtz.exe
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\bin\Debug\net6.0\hamanTaluyAlEtz.deps.json
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\bin\Debug\net6.0\hamanTaluyAlEtz.runtimeconfig.json
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\bin\Debug\net6.0\hamanTaluyAlEtz.dll
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\bin\Debug\net6.0\hamanTaluyAlEtz.pdb
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.AssemblyInfo.cs
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.dll
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\refint\hamanTaluyAlEtz.dll
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.pdb
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\hamanTaluyAlEtz.genruntimeconfig.cache
+C:\Users\User\Desktop\Chani_Studies\כלי בינה\hamanTaluyAlEtz\hamanTaluyAlEtz\obj\Debug\net6.0\ref\hamanTaluyAlEtz.dll

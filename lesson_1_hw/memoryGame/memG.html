@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>משחק הזיכרון המשופר</title>
+    <link rel="stylesheet" href="memG.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="info-bar">
+            <div class="stat-box">
+                <span class="label">ניקוד:</span>
+                <span id="score">0</span>
+            </div>
+            <h1>🐻 משחק הזיכרון 🦁</h1>
+            <div class="stat-box">
+                <span class="label">זמן:</span>
+                <span id="timer">05:00</span>
+            </div>
+        </div>
+
+        <div class="game-board" id="game-board">
+            </div>
+        
+        <div class="controls">
+            <button onclick="restartGame()">משחק חדש 🔄</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <h2 id="modal-title">כל הכבוד!</h2>
+            <p id="modal-msg">סיימת את המשחק.</p>
+            <p>ניקוד סופי: <span id="final-score">0</span></p>
+            <button onclick="restartGame()">שחק שוב</button>
+        </div>
+    </div>
+
+    <script src="memG.js"></script>
+</body>
+</html>
